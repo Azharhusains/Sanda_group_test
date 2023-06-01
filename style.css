@@ -1,0 +1,29 @@
+.box {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: white;
+  }
+
+  .red {
+      background-color: rgb(255, 0, 0);
+  }
+
+  .rotate-image img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s ease;
+  }
+
+  .rotate-image:hover img {
+    transform: rotate(360deg);
+  }
+
+
+@media only screen and (max-width: 1024px) {
+    .d-flex_btn {
+        display: flex!important;
+        flex-direction: column;
+    }
+  }
